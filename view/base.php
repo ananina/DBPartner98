@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title><?=$title?></title>
     <meta charset="utf-8">
-    <script src="/DBPartner98.git/assets/jquery/jquery-1.11.3.min.js"></script>
-    <script src="/DBPartner98.git/assets/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/DBPartner98.git/assets/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><?=$title?></title>
+    <link href="assets/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+    <script src="assets/jquery/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="assets/jquery/jquery.maskedinput.min.js"  type="text/javascript"></script>
+    <script src="assets/bootstrap-3.3.6-dist/js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body>
 <?=$content?>
