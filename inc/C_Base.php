@@ -16,7 +16,6 @@ abstract class C_Base extends C_Controller
     {
         $params = ["title" => $this->title, "content" => $this->content];
         $page = $this->template("view/base.php", $params);
-
         echo $page;
     }
 
