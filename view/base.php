@@ -12,6 +12,15 @@
     <script src="assets/bootstrap-3.3.6-dist/js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body>
-<?=$content?>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="http://www.partner98.ru/">
+                    <img alt="Brand" src="...">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <?=$content?>
 </body>
 </html>
