@@ -22,4 +22,11 @@ class C_Page extends C_Base
         $this->content = $this->template("view/main.php", ['content' => $content]);
     }
 
+    public function action_open(){
+        $pageName = $this->params[2];
+        $model = model::GetInstance();
+        $params = $model->get_all($pageName);
+        $this->content = $this->template("view/$pageName.php", ["params"=>$params]);
+    }
+
 }
